@@ -36,7 +36,7 @@ function App() {
 
     if (isReload) {
       // Ambil path tanpa hash
-      const baseUrl = window.location.origin + "/portofolio/";
+      const baseUrl = window.location.origin + "/";
       window.location.replace(baseUrl);
     }
   }, []);
@@ -117,7 +117,7 @@ function App() {
               handle="sairajnaikwade"
               status="Available"
               contactText="Contact Me"
-              avatarUrl="./assets/sairaj-cut.png"
+              avatarUrl="/sairaj-cut.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
